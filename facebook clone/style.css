@@ -279,10 +279,13 @@ margin-top: 10px;
 
 
                                      /*STARTING OF SECTIONS */
+                                     .profile{
+                                         display: none;
+                                     }
                                      .sections{
                                         
-                                         margin-right: 20px;
-                                         margin-left: 20px;
+                                         margin-right: 5px;
+                                         margin-left: 5px;
                                       
                                          display: flex;
                                          justify-content: space-between;
@@ -293,8 +296,8 @@ margin-top: 10px;
                                              
                                         }
                                         .sections > a{
-                                            padding-right: 30px;
-                                            padding-left: 30px;
+                                            padding-right: 10px;
+                                            padding-left: 20px;
                                             padding-bottom: 40px;
                                             
                                             
@@ -506,10 +509,11 @@ box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
     justify-content: center;
  }
  .pass{
-     height: 250px;
+     height: 300px;
      width: 600px;
      background-color: white;
      border-radius: 10px;
+     
  }
 
  .pass{
@@ -572,7 +576,7 @@ box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
      background-color: rgba(165, 161, 161, 0.747); ;
  }
  .main-sub{
-     margin-top: 20px;
+     margin-top: 60px;
      display: flex;
      justify-content: center;
      height: 155px;
@@ -650,8 +654,8 @@ box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
     background-repeat: no-repeat;
 }
 .reaction-main{
-padding-left: 20px;
-padding-right: 20px;
+padding-left: 5px;
+padding-right: 5px;
 padding-top: 10px;
 }
 .reaction{
@@ -870,6 +874,20 @@ padding-top: 10px;
     .icon2{
         display: none;
     }
+
+    .sections > a{
+        padding-right: 30px;
+        padding-left: 40px;
+        padding-bottom: 40px;
+        
+        
+    }
+    .reaction-main{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        }
+
     }
 
     @media screen and (min-width:1100px){
