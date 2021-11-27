@@ -281,8 +281,8 @@ margin-top: 10px;
                                      /*STARTING OF SECTIONS */
                                      .sections{
                                         
-                                         margin-right: 100px;
-                                         margin-left: 100px;
+                                         margin-right: 20px;
+                                         margin-left: 20px;
                                       
                                          display: flex;
                                          justify-content: space-between;
@@ -851,8 +851,8 @@ padding-top: 10px;
 
  @media screen and (min-width:900px){
     .sections{
-        margin-left: 50px;
-        margin-right: 50px;
+        margin-left: 100px;
+        margin-right: 100px;
     }
     .body1{
        display: grid;
