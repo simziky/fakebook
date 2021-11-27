@@ -692,6 +692,7 @@ padding-top: 10px;
     overflow-y: scroll;
     height: 100vh;
     overflow-x: hidden;
+    display: none;
   
  }
  .body3::-webkit-scrollbar{
@@ -859,10 +860,8 @@ padding-top: 10px;
     .body3{
         display: none;
     }
-.main-body{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: auto;
+.search > .input-icon > input{
+    width: 50%;
 }
    
     .icon{
