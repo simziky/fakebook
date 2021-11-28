@@ -925,3 +925,11 @@ padding-top: 10px;
       }
 
     }
+
+
+    
+ @media screen and (max-width:900px){
+    .login-form{
+        width: 300px;
+    }
+ }
